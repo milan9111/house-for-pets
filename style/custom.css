@@ -1,0 +1,164 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+* {
+  outline: 0 !important;
+}
+
+html {
+  overflow-x: hidden;
+}
+ul,ol {
+  padding: 0;
+}
+body,h1,h2,h3,h4,p,ul,ol,li,figure,figcaption,blockquote,dl,dd {
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+ul, ol {
+  list-style: none;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+img {
+  max-width: 100%;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+input,
+button,
+textarea,
+select {
+font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+}
+
+@font-face {
+	font-family: 'Georgia'; 
+	src: url(../fonts/georgia.ttf); 
+}
+
+.navbar {
+  background: linear-gradient(45deg, #453931, #1f1d1e);
+  filter: opacity(0.9);
+}
+.presentation {
+  background-image: url(../images/background_dog.jpg);
+  background-repeat: no-repeat;
+  background-color: #111111;
+  background-size: cover;
+}
+
+.nav-item {
+  padding: 0px 0px 10px 0px;   
+}
+
+.nav-link {
+  font-size: 15px;
+  color: #bdbcbc;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 3px solid transparent;   
+}
+
+.nav-link:hover {
+  color: #f1cdb3;
+  border-bottom: 3px solid #f1cdb3;
+}
+
+.presentation-text {
+  padding-top: 22%;
+}
+
+.presentation h2 {
+  font-family: 'Georgia';
+  font-size: 44px;
+  color: #ffffff;
+}
+
+.text-block {
+  display: block;
+}
+
+.presentation-text p {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.presentation-text button {
+  font-family: 'Gergia'; 
+  color: #292929;
+  font-size: 15px;
+  border:2px solid #292929;
+  border-radius: 25px;
+  background-color: #fddcc4;
+  margin: 0% 2% 19% 0%;
+  padding: 2% 6%;
+}
+
+.presentation-text button:hover {
+  background-color: #ffffff;
+}
+
+.about {
+  background-color: #ffffff;
+}
+
+.about-img {
+  max-width: 100%;
+  margin: 15% 0% 15% 20%;
+}
+
+.about h2 {
+  padding: 17% 0% 5% 0%;
+  color: #545454;
+  font-family: 'Georgia';
+  font-size: 35px;
+}
+
+.about p {
+  color: #545454;
+  font-size: 15px;
+  padding: 0% 45% 0% 0%;
+}
+
+.friends {
+  background-color: #f6f6f6;
+}
+
+.friends h2 {
+  font-family: 'Gergia';
+  color: #545454;
+  font-size: 35px;
+  text-align: center;
+  padding: 4% 0% 6% 0%;
+}
+
+.friends .carousel-item h5 {
+  padding: 0% 0% 0% 0%;
+  color: red;
+}
+.friends .carousel-item p {
+ padding: 0% 0% 0% 0%; 
+ color: red;
+}
