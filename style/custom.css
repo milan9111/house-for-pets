@@ -147,18 +147,72 @@ font: inherit;
 }
 
 .friends h2 {
-  font-family: 'Gergia';
+  padding: 5% 0% 5% 0%;
+  font-family: 'Gergia'; 
   color: #545454;
   font-size: 35px;
   text-align: center;
-  padding: 4% 0% 6% 0%;
+  
 }
 
-.friends .carousel-item h5 {
-  padding: 0% 0% 0% 0%;
-  color: red;
+.slider-item {
+  text-align: center;
 }
-.friends .carousel-item p {
- padding: 0% 0% 0% 0%; 
- color: red;
+
+.slider-item p {
+  font-family: 'Gergia'; 
+  color: #646464;
+  font-size: 20px;
+  padding: 7% 0% 2% 0%;
+}
+
+.slider-item button {
+  font-family: 'Gergia'; 
+  color: #292929;
+  font-size: 17px;
+  border:2px solid #f1cdb3;
+  border-radius: 25px;
+  background-color:transparent;
+  margin: 0% 2% 19% 0%;
+  padding: 3% 12%;
+}
+
+.slider-item button:hover {
+  background-color: #f1cdb3 ;
+}
+
+
+.slick-track {
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 40px;
+}
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -50px 0px 0px 0px;
+  z-index: 10;
+  border: 2px solid #f1cdb3; 
+  padding: 20px 18px;
+  border-radius: 50%;
+}
+
+.slick-arrow:hover {
+  background-color: #f1cdb3;
+  cursor: pointer;
+}
+
+.slick-arrow.slick-prev {
+  left: 0;
+}
+
+.slick-arrow.slick-next {
+  right: 0;
 }
