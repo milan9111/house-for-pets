@@ -243,5 +243,19 @@ font: inherit;
   color: #545454;
   font-size: 35px;
   text-align: center;
-  
+}
+
+.help p {
+  font-family: 'Gergia';
+  font-size: 20px;
+  color: #545454;
+  padding: 10% 0% 0% 0%;
+}
+
+.help-row-top {
+  padding: 0% 0% 3% 0%;
+}
+
+.help-row-bottom {
+  padding: 0% 0% 5% 0%;
 }
