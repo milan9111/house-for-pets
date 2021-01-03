@@ -62,6 +62,11 @@ font: inherit;
 	src: url(../fonts/arial_italic.ttf); 
 }
 
+@font-face {
+	font-family: 'Times New Roman'; 
+	src: url(../fonts/times-new-roman.ttf); 
+}
+
 .navbar {
   background: linear-gradient(45deg, #453931, #1f1d1e);
   filter: opacity(0.9);
@@ -314,4 +319,46 @@ font: inherit;
   color: #b2b2b2;
   font-size: 12px;
   padding: 0% 0% 9% 0%;
+}
+
+.footer {
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-color: #111111;
+  background-size: cover;
+}
+
+.footer h2 {
+  font-family: 'Gergia'; 
+  color: #ffffff;
+  font-size: 35px;
+  padding: 12% 0% 2% 0%;
+}
+
+.footer div {
+  font-family: 'Times New Roman';  
+  color: #f1cdb3;
+  font-size: 20px;
+}
+
+.footer div a {
+  text-decoration: none;
+  font-family: 'Times New Roman';  
+  color: #f1cdb3;
+  font-size: 20px;
+}
+
+.footer-fontawesome {
+  font-size: 32px;
+  padding-right: 3%;
+}
+
+.footer-fontawesome-mobile {
+  font-size: 32px;
+  padding-right: 7%;
+  padding-bottom: 0%;
+}
+
+.footer-text-bottom {
+  padding: 0% 0% 10% 0%;
 }
