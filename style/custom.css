@@ -259,3 +259,11 @@ font: inherit;
 .help-row-bottom {
   padding: 0% 0% 5% 0%;
 }
+
+.help img {
+  transition: 0.5s;
+}
+
+.help img:hover {
+  transform: scale(2);
+}
