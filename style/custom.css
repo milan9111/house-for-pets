@@ -71,6 +71,11 @@ font: inherit;
   background: linear-gradient(45deg, #453931, #1f1d1e);
   filter: opacity(0.9);
 }
+
+.navbar-toggler-icon {
+  background-image: url(../images/burger.png);
+}
+
 .presentation {
   background-image: url(../images/background_dog.jpg);
   background-repeat: no-repeat;
