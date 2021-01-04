@@ -79,6 +79,7 @@ font: inherit;
 .presentation {
   background-image: url(../images/background_dog.jpg);
   background-repeat: no-repeat;
+  background-position: top;
   background-color: #111111;
   background-size: cover;
 }
@@ -329,6 +330,7 @@ font: inherit;
 .footer {
   background-image: url(../images/footer.jpg);
   background-repeat: no-repeat;
+  background-position: top;
   background-color: #111111;
   background-size: cover;
 }
